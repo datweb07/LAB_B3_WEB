@@ -1,3 +1,52 @@
-* {
-  background-color: aqua;
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Bảng */
+table {
+  border-collapse: collapse;
+  width: 700px;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Header */
+thead th {
+  background: #888;
+  color: white;
+  font-weight: bold;
+}
+
+/* Dòng lẻ */
+tbody tr:nth-child(odd) {
+  background: green;
+  color: red;
+  font-style: italic;
+}
+
+tbody tr:nth-child(odd) input {
+  color: red;
+}
+
+/* Dòng chẵn */
+tbody tr:nth-child(even) {
+  background: yellow;
+  color: blue;
+  font-style: italic;
+}
+
+input {
+  width: 95%;
+  padding: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
 }
