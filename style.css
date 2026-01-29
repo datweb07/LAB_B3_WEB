@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Bảng */
 table {
   border-collapse: collapse;
   width: 700px;
@@ -16,7 +15,6 @@ td {
   text-align: center;
 }
 
-/* Header */
 thead th {
   background: #888;
   color: white;
